@@ -31,6 +31,7 @@ import spark.monkey_patches
 urlpatterns = patterns('spark.views',
   url(r'^$', 'editor', name='index'),
   url(r'^editor$', 'editor', name='editor'),
+  url(r'^ace', 'ace', name='ace'),
   url(r'^notebooks$', 'notebooks', name='notebooks'),
   url(r'^new$', 'new', name='new'),
   url(r'^download$', 'download', name='download'),
