@@ -1,0 +1,5 @@
+---
+applications:
+- name: hue
+  memory: 512M
+  buildpack: python-2.7.9
